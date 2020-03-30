@@ -9,7 +9,6 @@ module.exports = {
     path: outputPath
   },
   devServer: {
-    contentBase: outputPath,
-    port: 30000
+    contentBase: outputPath
   }
 }
