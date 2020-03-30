@@ -7,5 +7,9 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: outputPath
+  },
+  devServer: {
+    contentBase: outputPath,
+    port: 30000
   }
 }
